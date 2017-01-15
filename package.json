@@ -4,6 +4,7 @@
   "description": "A NodeJS, ExpressJS and Webpack starter project",
   "main": "index.js",
   "scripts": {
+    "start": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,16 @@
   "bugs": {
     "url": "https://github.com/gcman105/nodejs-express-webpack-starter/issues"
   },
-  "homepage": "https://github.com/gcman105/nodejs-express-webpack-starter#readme"
+  "homepage": "https://github.com/gcman105/nodejs-express-webpack-starter#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "morgan": "~1.7.0",
+    "node-compass": "0.2.3",
+    "pug": "~2.0.0-beta6",
+    "serve-favicon": "~2.3.0"
+  }
 }
