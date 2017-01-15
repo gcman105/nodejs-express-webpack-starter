@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-express-webpack-starter",
+  "version": "1.0.0",
+  "description": "A NodeJS, ExpressJS and Webpack starter project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcman105/nodejs-express-webpack-starter.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "Webpack"
+  ],
+  "author": "Gary Cheeseman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gcman105/nodejs-express-webpack-starter/issues"
+  },
+  "homepage": "https://github.com/gcman105/nodejs-express-webpack-starter#readme"
+}
