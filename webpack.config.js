@@ -28,7 +28,7 @@ var config = {
       {
         test: /\.pug$/,
         include: [
-          SRC_DIR
+          SRC_DIR + "/views"
         ],
         loader: "pug-loader"
       },
@@ -44,7 +44,7 @@ var config = {
   plugins: [
     new webpack.optimize.UglifyJsPlugin(),
     new HtmlWebpackPlugin({
-      template: "./src/index.pug"
+      template: SRC_DIR + "/views/index.pug"
     })
   ],
   stats: {
